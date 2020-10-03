@@ -1,0 +1,48 @@
+InnoDB: using atomic writes.
+2019-12-16 12:41:02 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-12-16 12:41:02 0 [Note] InnoDB: Uses event mutexes
+2019-12-16 12:41:02 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-12-16 12:41:02 0 [Note] InnoDB: Number of pools: 1
+2019-12-16 12:41:02 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-12-16 12:41:02 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-12-16 12:41:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-12-16 12:41:02 0 [Note] InnoDB: Resizing redo log from 2*5242880 to 2*50331648 bytes; LSN=939041
+2019-12-16 12:41:02 0 [Note] InnoDB: Starting to delete and rewrite log files.
+2019-12-16 12:41:02 0 [Note] InnoDB: Setting log file .\ib_logfile101 size to 50331648 bytes
+2019-12-16 12:41:02 0 [Note] InnoDB: Setting log file .\ib_logfile1 size to 50331648 bytes
+2019-12-16 12:41:02 0 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2019-12-16 12:41:02 0 [Note] InnoDB: New log files created, LSN=939041
+2019-12-16 12:41:03 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-12-16 12:41:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-12-16 12:41:03 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-12-16 12:41:03 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-12-16 12:41:03 0 [Note] InnoDB: Waiting for purge to start
+2019-12-16 12:41:03 0 [Note] InnoDB: 10.4.8 started; log sequence number 939041; transaction id 1901
+2019-12-16 12:41:03 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2019-12-16 12:41:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+ERROR: 1471  The target table user of the INSERT is not insertable-into
+2019-12-16 12:41:03 0 [ERROR] Aborting
+InnoDB: using atomic writes.
+2019-12-16 12:41:36 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-12-16 12:41:36 0 [Note] InnoDB: Uses event mutexes
+2019-12-16 12:41:36 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-12-16 12:41:36 0 [Note] InnoDB: Number of pools: 1
+2019-12-16 12:41:36 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-12-16 12:41:36 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2019-12-16 12:41:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-12-16 12:41:37 0 [Note] InnoDB: Resizing redo log from 2*5242880 to 2*50331648 bytes; LSN=940080
+2019-12-16 12:41:37 0 [Note] InnoDB: Starting to delete and rewrite log files.
+2019-12-16 12:41:37 0 [Note] InnoDB: Setting log file .\ib_logfile101 size to 50331648 bytes
+2019-12-16 12:41:37 0 [Note] InnoDB: Setting log file .\ib_logfile1 size to 50331648 bytes
+2019-12-16 12:41:37 0 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2019-12-16 12:41:37 0 [Note] InnoDB: New log files created, LSN=940080
+2019-12-16 12:41:37 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-12-16 12:41:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-12-16 12:41:37 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-12-16 12:41:37 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-12-16 12:41:37 0 [Note] InnoDB: Waiting for purge to start
+2019-12-16 12:41:37 0 [Note] InnoDB: 10.4.8 started; log sequence number 940080; transaction id 1901
+2019-12-16 12:41:37 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2019-12-16 12:41:37 0 [Note] Plugin 'FEEDBACK' is disabled.
+ERROR: 1471  The target table user of the INSERT is not insertable-into
+2019-12-16 12:41:37 0 [ERROR] Aborting
